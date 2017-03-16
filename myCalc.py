@@ -8,4 +8,6 @@ def division(x, y):
 	else:
 		return("Division by Zero not defined")
 
-
+def mul(a,b):
+    c=a*b
+    print c
