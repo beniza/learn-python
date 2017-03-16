@@ -10,5 +10,7 @@ def division(x, y):
 		return("Division by Zero not defined")
 
 def mul(a,b):
-    c=a*b
-    print c
+    return(a*b)
+
+def subtraction(a, b):
+	return(a-b)
