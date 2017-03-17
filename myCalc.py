@@ -1,4 +1,7 @@
 # Calculator project for collaboration
+a = raw_input("Enter the first number :")
+b = raw_input("\nEnter the second Number :")
+
 def addition(x, y):
 	return a + b
 
@@ -15,3 +18,4 @@ def subtraction(a, b):
 	return(a-b)
 
 print "Calculator"
+
