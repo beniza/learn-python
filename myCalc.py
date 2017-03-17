@@ -1,7 +1,9 @@
 # Calculator project for collaboration
 a = raw_input("Enter the first number :")
 b = raw_input("\nEnter the second Number :")
-print "The sum is :", a + b
+
+def sum(a,b):
+	return (a + b)
 
 def division(x, y):
 	if(y!=0):
@@ -14,3 +16,6 @@ def mul(a,b):
 
 def subtraction(a, b):
 	return(a-b)
+
+def mod(a,b):
+	return (a%b)
